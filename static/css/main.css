@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    border: 1px solid #ccc;
+    min-height: 40px;
+}
+
+textarea {
+    padding: 6px;
+}
+
+.username {
+    margin-right: 8px;
+}
+
+.top-menu-button {
+    margin-left: 8px;
+}
+
+.gallery-remove-button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border: 1px solid transparent;
+}
+
+.gallery {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery-image {
+    height: 240px;
+}
+
+.gallery-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    position: relative;
+    float: left;
+    width: 32.2%;
+    margin: 6px 4px;
+}
+
+@media (max-width: 800px) {
+    .responsive {
+        width: 48.2%;
+    }
+}
+
+@media (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.gallery-header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 16px;
+}
+
+.gallery-title {
+    display: table;
+    margin: 0;
+    flex: 1;
+    font-size: 2rem;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.card {
+    width: 500px;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form input {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form button {
+    width: 100%;
+    display: block;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: white;
+    border-radius: 2px;
+    min-height: 40px;
+    border: 1px solid transparent;
+    font-weight: bold;
+}
+
+.form button:hover {
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.login-bottom {
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
