@@ -16,11 +16,11 @@ textarea {
 }
 
 .username {
-    margin-right: 8px;
+    margin-right: .5em;
 }
 
 .top-menu-button {
-    margin-left: 8px;
+    margin-left: .5em;
 }
 
 .gallery-remove-button {
@@ -68,18 +68,6 @@ textarea {
     margin: 6px 4px;
 }
 
-@media (max-width: 800px) {
-    .responsive {
-        width: 48.2%;
-    }
-}
-
-@media (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
 .clearfix:after {
     content: "";
     display: table;
@@ -104,7 +92,7 @@ textarea {
     display: table;
     margin: 0;
     flex: 1;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .form-body {
@@ -117,7 +105,7 @@ textarea {
 .form-title {
     text-align: center;
     margin-bottom: 40px;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .card {
@@ -166,4 +154,24 @@ textarea {
 
 a:hover {
     text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .responsive {
+        width: 48.2%;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 85%;
+    }
+
+    .gallery-title {
+        font-size: 1.2em;
+    }
+
+    .responsive {
+        width: 100%;
+    }
 }
