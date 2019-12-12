@@ -81,7 +81,7 @@ class Main extends CI_Controller {
         }
         else if ($this->input->method() === "post") {
             $config["upload_path"] = "uploads/";
-            $config["allowed_types"] = "gif|jpg|png";
+            $config["allowed_types"] = "gif|jpg|jpeg|png";
             $config["max_size"] = 10 * 1024;
             $config["encrypt_name"] = TRUE;
             $this->upload->initialize($config);

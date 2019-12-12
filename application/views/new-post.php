@@ -15,7 +15,7 @@
             <h1 class="form-title"><a href="/">CI Gallery</a></h1>
             <form class="form" method="POST" enctype="multipart/form-data">
                 <label for="file">Upload your photo</label>
-                <input type="file" id="file" name="file" accept=".gif, .jpg, .png" required>
+                <input type="file" id="file" name="file" accept=".gif, .jpg, .jpeg, .png" required>
                 <textarea name="description" rows="10" maxlength="100" placeholder="Describe about your photo..." required></textarea>
                 <button type="submit">Submit</button>
             </form>
